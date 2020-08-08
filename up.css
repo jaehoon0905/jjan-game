@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #938c7c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-result {
+  font-family: Consolas;
+  margin: 7rem 0;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+.correct {
+  color: #70c970;
+}
+
+.js-form input {
+  font-size: 2rem;
+  border: 3px solid #70c970;
+}
+
+.js-form input:focus {
+  outline: none;
+}
